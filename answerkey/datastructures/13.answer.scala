@@ -62,6 +62,8 @@ Becomes:
 def delay3(b:B) = innerIdent(combiner(b,  3))
 def delay2(b:B) = delay3(combiner(b, 2))
 def delay1(b:B) = delay2(combiner(b,  1))
+
+Delayed Evaluation...
 delay1(Nil)
 
 Becomes:
